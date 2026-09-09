@@ -1,9 +1,10 @@
-BurnedWolf 4.4.0
+BurnedWolf 4.5.0
 
-- Fixed BurnedCord microphone/camera permission handling in the Electron desktop window.
-- Fixed remote voice playback startup in the desktop client.
-- Reworked WebRTC signaling for the shared-hosting polling transport: SDP now waits briefly for ICE gathering instead of flooding the server with individual candidate requests.
-- Reduced in-room signaling polling latency.
-- Added Windows system-audio capture when sharing a screen or application window.
-- Added separate shared-screen audio controls: right-click a shared screen to adjust its volume (0-200%) or mute it locally.
-- Preserved native Electron clipboard support for all Copy actions.
+BurnedCord desktop media reliability update.
+
+- BurnedCord now renders from the same HTTPS origin as the working web version instead of file://.
+- Desktop voice/API traffic uses the browser-native same-origin path again.
+- Remote audio playback now uses direct HTMLMediaElement playback instead of a fragile WebAudio relay chain.
+- Native Electron clipboard integration remains available for all Copy actions.
+- Microphone/camera/display permissions are restricted to the official chat.whyscripts.com origin.
+- Screen-share source picker and system-audio controls from 4.4 are preserved.
