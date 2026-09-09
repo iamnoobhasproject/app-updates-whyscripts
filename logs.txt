@@ -1,8 +1,9 @@
-BurnedWolf 4.3.0
+BurnedWolf 4.4.0
 
-BurnedCord reliability update:
-- Fixed all BurnedCord Copy buttons in the Electron desktop window using the native clipboard bridge.
-- Added queued/retried realtime signaling so SDP/ICE is not silently lost during short reconnects.
-- Improved automatic ICE restart behavior.
-- Added automatic TURN relay fallback through the chat backend for restrictive NAT/firewall networks.
-- Direct peer-to-peer remains preferred; TURN is used only when ICE needs a relay path.
+- Fixed BurnedCord microphone/camera permission handling in the Electron desktop window.
+- Fixed remote voice playback startup in the desktop client.
+- Reworked WebRTC signaling for the shared-hosting polling transport: SDP now waits briefly for ICE gathering instead of flooding the server with individual candidate requests.
+- Reduced in-room signaling polling latency.
+- Added Windows system-audio capture when sharing a screen or application window.
+- Added separate shared-screen audio controls: right-click a shared screen to adjust its volume (0-200%) or mute it locally.
+- Preserved native Electron clipboard support for all Copy actions.
