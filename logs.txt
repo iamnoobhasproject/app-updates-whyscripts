@@ -1,5 +1,6 @@
-BurnedWolf now uses the whyscripts.com interface and product identity.
-The existing DPI, DNS, Tor, Discord, backup, integrity and AI systems remain in place.
-Update, changelog and repair downloads now use the dedicated app-updates-whyscripts channel.
-Version checks now compare semantic versions instead of treating every different version as newer.
-The Settings screen now links directly to the official BurnedWolf website and public source repository.
+BurnedWolf 4.0.1
+
+- Fixed the Integrity / Repair download endpoint.
+- Repair now downloads net.zip from the BurnedWolf GitHub Release asset:
+  https://github.com/iamnoobhasproject/burnedwolf/releases/download/burnedwolf/net.zip
+- No DPI, DNS, Tor, Discord, AI or profile behavior was changed in this hotfix.
