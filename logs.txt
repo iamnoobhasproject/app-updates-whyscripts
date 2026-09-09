@@ -1,0 +1,5 @@
+BurnedWolf now uses the whyscripts.com interface and product identity.
+The existing DPI, DNS, Tor, Discord, backup, integrity and AI systems remain in place.
+Update, changelog and repair downloads now use the dedicated app-updates-whyscripts channel.
+Version checks now compare semantic versions instead of treating every different version as newer.
+The Settings screen now links directly to the official BurnedWolf website and public source repository.
