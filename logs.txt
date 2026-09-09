@@ -1,8 +1,7 @@
-BurnedWolf 4.2.0
+BurnedWolf 4.2.1
 
 BurnedCord
-- Removed the sponsored/free registration-key flow.
-- Removed LootLabs/reward/postback integration from the desktop client.
-- Registration remains invite-only through keys created by existing members.
-- Each existing account can still create up to two lifetime single-use registration keys.
-- Kept the current voice, camera, screen sharing, rooms, friends and moderation features unchanged.
+- Fixed the screen-share source picker overflowing outside its modal.
+- The screen-share dialog now uses a dedicated wide modal instead of placing an 820px picker inside the normal 460px modal.
+- Source cards, quality selector and Cancel button now remain inside one consistent WhyScripts panel.
+- Added responsive 3-column, 2-column and 1-column layouts for different window sizes.
