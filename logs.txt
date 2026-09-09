@@ -1,6 +1,8 @@
-BurnedWolf 4.0.1
+BurnedWolf 4.2.0
 
-- Fixed the Integrity / Repair download endpoint.
-- Repair now downloads net.zip from the BurnedWolf GitHub Release asset:
-  https://github.com/iamnoobhasproject/burnedwolf/releases/download/burnedwolf/net.zip
-- No DPI, DNS, Tor, Discord, AI or profile behavior was changed in this hotfix.
+BurnedCord
+- Removed the sponsored/free registration-key flow.
+- Removed LootLabs/reward/postback integration from the desktop client.
+- Registration remains invite-only through keys created by existing members.
+- Each existing account can still create up to two lifetime single-use registration keys.
+- Kept the current voice, camera, screen sharing, rooms, friends and moderation features unchanged.
