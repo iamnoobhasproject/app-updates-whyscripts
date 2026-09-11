@@ -1,7 +1,5 @@
-BurnedWolf 4.6.3
-
-Migration bridge reliability hotfix.
-- Fixes false "Couldn't reach the server" update checks by preferring Electron/Chromium networking and retaining Node HTTPS + jsDelivr fallbacks.
-- Legacy and v2 application channels now both converge on the same safe Electron 26 bridge.
-- Core/Electron 44 channel remains disabled until validation is complete.
-- No adm-zip runtime dependency.
+BurnedWolf 4.6.4
+- Final Electron 26 migration bridge.
+- Fixes invalid-update-metadata startup screen.
+- Core/Electron update check no longer depends on the app update channel.
+- Update-server failures never lock the user out of BurnedWolf.

@@ -1,7 +1,7 @@
 {
-  "version": "4.6.3",
+  "version": "4.6.4",
   "zipUrl": "https://raw.githubusercontent.com/iamnoobhasproject/app-updates-whyscripts/main/app-v2.zip",
   "minimumElectron": "26.0.0",
   "releaseType": "app",
-  "notes": "Final Electron 26 migration bridge. Uses Chromium/Electron networking first for update manifests and fixes the false Could not reach the server state before the Electron 44 migration."
+  "notes": "Final Electron 26 migration bridge. Core checks are independent from app metadata and updater errors no longer block startup."
 }
