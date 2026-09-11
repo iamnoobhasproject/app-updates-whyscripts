@@ -3,7 +3,7 @@
   "version": "4.7.0",
   "electron": "44.3.0",
   "installerUrl": "https://github.com/iamnoobhasproject/burnedwolf/releases/download/v4.7.0/BurnedWolf-Setup.exe",
-  "sha256": "ccdc5b6ad94fcfd2a036da456a7f92b12089a94e177d950590d06b47421a94cf",
-  "minimumBridge": "4.6.4",
-  "notes": "Full BurnedWolf Core update: Electron 44.3.0, Chromium 152, Node 24.20.0."
+  "sha256": "5b334b0b4cc71c51a7cbdcffcc5d82e2709d4b62468ba164c5a05af95936ea31",
+  "minimumBridge": "4.6.5",
+  "notes": "Full BurnedWolf Core update: Electron 44.3.0, Chromium 152, Node 24.20.0"
 }

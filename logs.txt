@@ -1,5 +1,5 @@
-BurnedWolf 4.6.4
-- Final Electron 26 migration bridge.
-- Fixes invalid-update-metadata startup screen.
-- Core/Electron update check no longer depends on the app update channel.
-- Update-server failures never lock the user out of BurnedWolf.
+BurnedWolf 4.6.5
+- Fixes the migration updater UI showing a raw localization key.
+- Prevents source-mode npm start from pretending it can self-replace app.asar.
+- Revalidates and pins the app archive immediately before download.
+- Keeps Electron/Core updates on the separate verified installer channel.
