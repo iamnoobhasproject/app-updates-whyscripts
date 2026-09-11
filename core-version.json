@@ -1,9 +1,9 @@
 {
-  "enabled": true,
+  "enabled": false,
   "version": "4.7.0",
   "electron": "44.3.0",
-  "installerUrl": "https://github.com/iamnoobhasproject/burnedwolf/releases/download/v4.7.0/BurnedWolf-Setup.exe",
-  "sha256": "ccdc5b6ad94fcfd2a036da456a7f92b12089a94e177d950590d06b47421a94cf",
-  "minimumBridge": "4.6.1",
-  "notes": "Full BurnedWolf Core update: Electron 44.3.0, Chromium 152, Node 24.20.0"
+  "installerUrl": "",
+  "sha256": "",
+  "minimumBridge": "4.6.2",
+  "notes": "KEEP DISABLED until BurnedWolf 4.6.2 is installed and the rebuilt 4.7.0 Core44 installer passes every test."
 }

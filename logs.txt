@@ -1,9 +1,5 @@
-BurnedWolf 4.6.1 Migration Bridge
-
-- Adds separate Application and Core/Electron update lanes.
-- Keeps legacy app.asar updates compatible with existing Electron 26 installations.
-- Adds Core update bootstrap for the future Electron 44 migration.
-- Adds Electron compatibility guards so legacy clients cannot install incompatible app.asar updates.
-- Removes the unused adm-zip runtime dependency.
-- Improves update networking with redirect handling and a public CDN fallback.
-- A failed update check never blocks BurnedWolf from opening.
+BurnedWolf 4.6.2
+- Migration bridge hotfix for the dual Application/Core updater.
+- Prevents malformed update metadata from rendering as undefined -> undefined.
+- Handles redirects, raw GitHub fallback, and UTF-8 BOM safely.
+- Core migration remains disabled until the Electron 44 installer is rebuilt and verified.

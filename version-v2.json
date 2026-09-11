@@ -1,7 +1,7 @@
 {
-  "version": "4.6.1",
+  "version": "4.6.2",
   "zipUrl": "https://raw.githubusercontent.com/iamnoobhasproject/app-updates-whyscripts/main/app-v2.zip",
   "minimumElectron": "26.0.0",
   "releaseType": "app",
-  "notes": "Migration bridge. Electron 26 users move to the dual Application/Core update architecture here."
+  "notes": "Migration bridge hotfix. Fixes updater metadata/BOM handling before Electron 44 Core migration."
 }
