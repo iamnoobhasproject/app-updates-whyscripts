@@ -5,5 +5,5 @@
   "installerUrl": "",
   "sha256": "",
   "minimumBridge": "4.6.1",
-  "notes": "KEEP DISABLED until the 4.7.0 Core installer is built, tested and published."
+  "notes": "KEEP DISABLED until the 4.7.0 Core installer passes every test and is published."
 }

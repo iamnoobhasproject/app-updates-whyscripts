@@ -1,9 +1,9 @@
-BurnedWolf 4.6.1 — Core Migration Bridge
+BurnedWolf 4.6.1 Migration Bridge
 
-- Adds a second Core/Electron runtime update lane.
-- Adds an Electron compatibility guard for future app.asar updates.
-- Splits the application update channel so legacy Electron 26 clients stay safe forever.
-- Existing pre-bridge clients use version.json + update.zip (freeze at 4.6.1).
-- 4.6.1+ clients use version-v2.json + app-v2.zip.
-- Core updates use core-version.json and a full GitHub Release installer.
-- This bridge still runs Electron 26.6.10.
+- Adds separate Application and Core/Electron update lanes.
+- Keeps legacy app.asar updates compatible with existing Electron 26 installations.
+- Adds Core update bootstrap for the future Electron 44 migration.
+- Adds Electron compatibility guards so legacy clients cannot install incompatible app.asar updates.
+- Removes the unused adm-zip runtime dependency.
+- Improves update networking with redirect handling and a public CDN fallback.
+- A failed update check never blocks BurnedWolf from opening.
