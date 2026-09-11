@@ -1,0 +1,7 @@
+{
+  "version": "4.6.1",
+  "zipUrl": "https://raw.githubusercontent.com/iamnoobhasproject/app-updates-whyscripts/main/app-v2.zip",
+  "minimumElectron": "26.0.0",
+  "releaseType": "app",
+  "notes": "V2 app.asar lane for 4.6.1+ clients. Future patches belong here."
+}

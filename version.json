@@ -1,4 +1,6 @@
 {
-  "version": "4.6.0",
-  "zipUrl": "https://raw.githubusercontent.com/iamnoobhasproject/app-updates-whyscripts/main/update.zip"
+  "version": "4.6.1",
+  "zipUrl": "https://raw.githubusercontent.com/iamnoobhasproject/app-updates-whyscripts/main/update.zip",
+  "releaseType": "bridge",
+  "notes": "Permanent Electron 26 migration bridge. Do not advance this manifest past 4.6.1."
 }

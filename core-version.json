@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "version": "4.7.0",
+  "electron": "44.3.0",
+  "installerUrl": "",
+  "sha256": "",
+  "minimumBridge": "4.6.1",
+  "notes": "KEEP DISABLED until the 4.7.0 Core installer is built, tested and published."
+}

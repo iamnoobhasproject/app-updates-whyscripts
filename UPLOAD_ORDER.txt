@@ -1,0 +1,10 @@
+STAGE 1 — upload ALL SIX files to iamnoobhasproject/app-updates-whyscripts main:
+
+  version.json       <- LEGACY LANE. Freeze forever at 4.6.1.
+  update.zip         <- LEGACY LANE. Freeze forever as the 4.6.1 bridge app.asar.
+  version-v2.json    <- new app.asar lane used by 4.6.1+
+  app-v2.zip         <- new app.asar archive for v2 lane
+  core-version.json  <- enabled=false until the Core installer is tested
+  logs.txt
+
+CRITICAL: after this migration, NEVER overwrite version.json or update.zip with a modern Electron-only app build. Future lightweight app updates change ONLY version-v2.json + app-v2.zip.

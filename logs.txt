@@ -1,11 +1,9 @@
-BurnedWolf 4.6.0
+BurnedWolf 4.6.1 — Core Migration Bridge
 
-BurnedCord global Push-to-Talk and voice cleanup update.
-
-- Push-to-Talk is now global on Windows and keeps working while games or other applications are focused.
-- The PTT listener does not reserve the selected key, so the foreground game still receives it normally.
-- Mouse 4 and Mouse 5 can also be selected as Push-to-Talk buttons in the desktop client.
-- Noise suppression now layers WebRTC echo/noise processing, RNNoise when available, voice-band filtering, light compression and an adaptive noise gate.
-- Added Normal, Strong (default) and Very Strong noise profiles.
-- Push-to-Talk bypasses the adaptive voice gate while held to avoid clipping quiet syllables while keeping denoising active.
-- BurnedCord web renderer assets are cache-busted for this voice update.
+- Adds a second Core/Electron runtime update lane.
+- Adds an Electron compatibility guard for future app.asar updates.
+- Splits the application update channel so legacy Electron 26 clients stay safe forever.
+- Existing pre-bridge clients use version.json + update.zip (freeze at 4.6.1).
+- 4.6.1+ clients use version-v2.json + app-v2.zip.
+- Core updates use core-version.json and a full GitHub Release installer.
+- This bridge still runs Electron 26.6.10.
