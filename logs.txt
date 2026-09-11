@@ -1,5 +1,7 @@
-BurnedWolf 4.6.5
-- Fixes the migration updater UI showing a raw localization key.
-- Prevents source-mode npm start from pretending it can self-replace app.asar.
-- Revalidates and pins the app archive immediately before download.
-- Keeps Electron/Core updates on the separate verified installer channel.
+BurnedWolf 4.6.6
+- Final Electron 26 migration bridge.
+- Fixes the duplicate Application Update loop after the bridge installs.
+- Electron 26 bridge now offers only the full Core/Electron update after restart.
+- Update ZIP and Core installer downloads now try Electron/Chromium networking first, then Node HTTPS fallback.
+- GitHub Raw also retains jsDelivr fallback for manifests/assets.
+- Source-mode npm start no longer enters the self-update path.
