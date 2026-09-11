@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "version": "4.7.0",
   "electron": "44.3.0",
   "installerUrl": "https://github.com/iamnoobhasproject/burnedwolf/releases/download/v4.7.0/BurnedWolf-Setup.exe",
