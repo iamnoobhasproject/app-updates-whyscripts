@@ -1,7 +1,4 @@
-BurnedWolf 4.6.6
-- Final Electron 26 migration bridge.
-- Fixes the duplicate Application Update loop after the bridge installs.
-- Electron 26 bridge now offers only the full Core/Electron update after restart.
-- Update ZIP and Core installer downloads now try Electron/Chromium networking first, then Node HTTPS fallback.
-- GitHub Raw also retains jsDelivr fallback for manifests/assets.
-- Source-mode npm start no longer enters the self-update path.
+BurnedWolf 4.7.1
+- New whyscripts.com look across all BurnedWolf windows.
+- Redesigned BurnedCord.
+- Screen sharing continues without computer audio when Windows refuses to capture it.
